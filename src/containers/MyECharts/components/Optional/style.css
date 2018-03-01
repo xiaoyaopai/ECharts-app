@@ -1,0 +1,13 @@
+
+.chartChoose {
+  margin-top: 0.4rem;
+}
+
+:global(.chartChoose-item) {
+  padding: 0.25rem 0;
+}
+
+:global(.chartChoose-item-title) {
+  display: inline-block;
+  margin-right: 0.3rem;
+}

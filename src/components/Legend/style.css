@@ -1,0 +1,95 @@
+
+.legend-ul {
+  max-height: 350px;
+  width: 140px;
+  margin: 0;
+  padding: 0 5px;
+  font-family: 'sans-serif';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.legend-ul::-webkit-scrollbar {
+  display: none;
+}
+
+.legend-ul li {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0;
+  padding: 2px 10px;
+  word-break: keep-all;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.legend-li {
+  color: #333;
+}
+
+.legend-ul li:before {
+  content: "";
+  display: inline-block;
+  margin-right: 7px;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  border-radius: 25px;
+}
+
+:global(li.legend-done) {
+  color: #ccc;
+}
+
+:global(ul li.legend-done:before) {
+  background-color: #ccc;
+}
+
+:global(li.legend-01:before) {
+  background-color: #c23531;
+}
+
+:global(li.legend-02:before) {
+  background-color: #2f4554;
+}
+
+:global(li.legend-03:before) {
+  background-color: #61a0a8;
+}
+
+:global(li.legend-04:before) {
+  background-color: #d48265;
+}
+
+:global(li.legend-05:before) {
+  background-color: #91c7ae;
+}
+
+:global(li.legend-06:before) {
+  background-color: #749f83;
+}
+
+:global(li.legend-07:before) {
+  background-color: #ca8622;
+}
+
+:global(li.legend-08:before) {
+  background-color: #bda29a;
+}
+
+:global(li.legend-09:before) {
+  background-color: #6e7074;
+}
+
+:global(li.legend-10:before) {
+  background-color: #546570;
+}
+
+:global(li.legend-11:before) {
+  background-color: #c4ccd3;
+}
